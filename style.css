@@ -95,6 +95,9 @@ a {
    color: #eee;
    background: #ff0000;
    cursor: pointer;
+   display: block;
+   text-align: center;
+   text-decoration: none;
 }
 
 .container {
