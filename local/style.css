@@ -1,0 +1,178 @@
+* {
+   box-sizing: border-box;
+   margin: 0
+}
+
+body {
+   font-size: 100%;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   line-height: 1.2;
+   background: #a3a39b
+}
+
+header {
+   box-shadow: 0px 2px 1px #ccc;
+   background: #fff
+}
+
+header img {
+   width: 300px;
+}
+
+footer {
+   background-color: #222;
+   font-size: .75rem;
+   padding: 20px 0 100px;
+   text-align: center;
+}
+
+a {
+   color: #7dc049
+}
+
+.mt-1 {
+   margin-top: 1rem
+}
+
+.mt-2 {
+   margin-top: 2rem
+}
+
+.mr-1 {
+   margin-right: 2rem
+}
+
+.mr-2 {
+   margin-right: 2rem
+}
+
+.py-1 {
+   padding-top: .6rem;
+   padding-bottom: .6rem;
+}
+
+.py-2 {
+   padding-top: 2rem;
+   padding-bottom: 2rem;
+}
+
+.bg-drk {
+   background: #000;
+   color: #eee
+}
+
+.bg-white {
+   background: #fff;
+   /* color: #eee */
+}
+
+.bg-gray {
+   background: #30302b;
+   /* color: #eee */
+}
+
+.text-center {
+   text-align: center
+}
+
+.text-green {
+   color: #7dc049
+}
+
+.text-bold {
+   font-weight: bold
+}
+
+.text-gray {
+   color: gray
+}
+
+.text-white {
+   color: #eee !important
+}
+
+.btn-submit {
+   width: 100%;
+   padding: 10px 15px;
+   font-size: 1.8em;
+   border: none;
+   color: #eee;
+   background: #ff0000;
+   cursor: pointer;
+   display: block;
+   text-align: center;
+   text-decoration: none;
+}
+
+.container {
+   width: 100%;
+   padding-right: 15px;
+   padding-left: 15px;
+   margin-right: auto;
+   margin-left: auto
+}
+
+@media (max-width:768px) {
+
+   article {
+      padding: 2rem .5rem !important;
+   }
+
+   .btn-submit {
+      padding: 10px !important;
+      font-size: 90% !important;
+   }
+
+   .font-s {
+      font-size: 20px !important;
+   }
+
+   body {
+      font-size: 90% !important
+   }
+
+   h3 {
+      font-size: 20px;
+      /* text-align: center */
+   }
+
+   h2 {
+      font-size: 23px;
+      text-align: center
+   }
+
+   .flex-sm {
+      flex-direction: column;
+      align-items: center;
+   }
+}
+
+@media(max-width:576px) {
+   header img {
+      width: 260px;
+   }
+}
+
+@media (min-width:576px) {
+   .container {
+      max-width: 540px
+   }
+}
+
+@media (min-width:768px) {
+   .container {
+      max-width: 720px
+   }
+}
+
+@media (min-width:992px) {
+   .container {
+      max-width: 960px
+   }
+}
+
+@media (min-width:1200px) {
+   .container {
+      max-width: 1140px
+   }
+}
